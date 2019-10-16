@@ -1,7 +1,7 @@
 def reverse_each_word(name)
   new_array = []
 
-name.each do |names|
+name.collect do |names|
 puts "#{names}"
 end
 
